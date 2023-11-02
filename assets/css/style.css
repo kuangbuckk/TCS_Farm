@@ -5,7 +5,6 @@
 }
 
 body {
-
 }
 
 /* Common */
@@ -15,15 +14,15 @@ html {
 }
 
 .card-loi-ich {
-    min-height: 40rem;
-    max-height: 50rem;
+  min-height: 40rem;
+  max-height: 50rem;
 }
 
 .card {
   margin-bottom: 1rem;
 }
 
-.card button{
+.card button {
   max-width: 0.5rem;
 }
 #header {
@@ -87,7 +86,7 @@ html {
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-100%);
+  transform: translateY(100%);
   transition: all 1s;
 }
 
@@ -99,5 +98,26 @@ html {
 
 .jumbotron {
   background-color: white;
-  padding-bottom: 0;
+}
+
+.step-index {
+  border-radius: 55%;
+}
+
+.v-stepper {
+  position: relative;
+}
+
+.line {
+  top: 2.3rem;
+  left: 1rem;
+  /*   height: 120px; */
+  height: 8rem;
+
+  position: absolute;
+  border-left: 3px solid gray;
+}
+
+#lien-he {
+  padding: 3rem;
 }

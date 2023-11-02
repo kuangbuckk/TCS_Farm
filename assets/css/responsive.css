@@ -1,73 +1,95 @@
 /* PC */
-@media  (min-width: 1024px) {
-    
+@media (min-width: 1024px) {
 }
 
 /* Tablet */
-@media(min-width: 740px) and (max-width: 1024px) {
-    #slider {
-        margin-top: 3rem;
-    }
+@media (min-width: 740px) and (max-width: 1024px) {
+  #slider {
+    padding-top: 80%;
+    margin-top: 3rem;
+  }
 }
 
 /* Mobile */
-@media (max-width: 740px) { 
-    #header {
-        justify-content: space-around;
-        align-content: center;
-    }
-    
-    #nav{
-        display: flex;
-    }
+@media (max-width: 740px) {
+  #header {
+    justify-content: space-around;
+    align-content: center;
+  }
 
-    #nav > li { 
-        display: block;
-        font-size: 0.72rem;
-    }
+  #nav {
+    display: flex;
+  }
 
-    #nav > li:first-child { 
-        display: inline-block;
-    }
+  #nav > li {
+    display: block;
+    font-size: 0.72rem;
+  }
 
-    #nav li a{ 
-        padding: 1px 1.6rem;
-        font-size: 0.6rem;
-    }
+  #nav > li:first-child {
+    display: inline-block;
+  }
 
-    #slider {
-        margin-top: 3rem;
-    }
+  #nav li a {
+    padding: 1px 1.6rem;
+    font-size: 0.6rem;
+  }
+
+  #slider {
+    padding-top: 140%;
+    margin-top: 3rem;
+  }
 }
 
-@media (min-width: 300px) and (max-width: 420px) { 
-    #header {
-        justify-content: space-around;
-        align-content: center;
-    }
+@media (min-width: 300px) and (max-width: 420px) {
+  #header {
+    justify-content: space-around;
+    align-content: center;
+  }
 
-    #nav{
-        display: flex;
-        height: 2rem;
-    }
+  #nav {
+    display: flex;
+    height: 2rem;
+  }
 
-    #nav > li { 
-        display: block;
-        font-size: 0.5rem;
-    }
+  #nav > li {
+    display: block;
+    font-size: 0.5rem;
+  }
 
-    #nav > li:first-child { 
-        display: inline-block;
-    }
+  #nav > li:first-child {
+    display: inline-block;
+  }
 
-    #nav li a{ 
-        padding: 1px 1.4rem;
-        font-size: 0.43rem;
-        font-weight: 450;
-    }
+  #nav li a {
+    padding: 1px 1.4rem;
+    font-size: 0.43rem;
+    font-weight: 450;
+  }
 
-    #slider {
-        padding-top: 90%;
-        margin-top: 3rem;
-      }
+  #slider {
+    padding-top: 150%;
+    margin-top: 3rem;
+  }
+
+  .hidden {
+    transform: translateY(none);
+    transform: translateX(0%);
+    transition: all 1s;
+  }
+  .v-stepper {
+    min-height: 8rem;
+  }
+  
+  .line {
+    top: 2.3rem;
+    left: 1rem;
+    height: 18.3rem;
+    position: absolute;
+    border-left: 3px solid gray;
+  }
+
+  #lien-he {
+    padding: 1rem;
+  }
 }
