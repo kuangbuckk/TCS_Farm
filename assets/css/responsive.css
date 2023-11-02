@@ -71,12 +71,7 @@
     padding-top: 150%;
     margin-top: 3rem;
   }
-
-  .hidden {
-    transform: translateY(none);
-    transform: translateX(0%);
-    transition: all 1s;
-  }
+  
   .v-stepper {
     min-height: 8rem;
   }

@@ -9,4 +9,6 @@ const observer = new IntersectionObserver((entries) => {
 })
 
 const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenElementsLoiIch = document.querySelectorAll('.hidden-loi-ich');
 hiddenElements.forEach(el => observer.observe(el));
+hiddenElementsLoiIch.forEach(el => observer.observe(el));

@@ -63,11 +63,6 @@ html {
   display: block;
 }
 
-#nav > li:hover > a {
-  color: black;
-  background-color: #ccc;
-}
-
 #slider {
   padding-top: 55%;
   background: url("../images/backdrop.png") top center / cover no-repeat;
@@ -84,6 +79,13 @@ html {
 }
 
 .hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.hidden-loi-ich {
   opacity: 0;
   filter: blur(5px);
   transform: translateY(100%);
