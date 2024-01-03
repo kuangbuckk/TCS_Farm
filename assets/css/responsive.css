@@ -5,7 +5,6 @@
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1024px) {
   #slider {
-    padding-top: 80%;
     margin-top: 3rem;
   }
 }
@@ -23,7 +22,7 @@
 
   #nav > li {
     display: block;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
   }
 
   #nav > li:first-child {
@@ -36,12 +35,16 @@
   }
 
   #slider {
-    padding-top: 140%;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
   }
 }
 
 @media (min-width: 300px) and (max-width: 420px) {
+  
+  #slider {
+    margin-top: 3.5rem;
+  }
+
   #header {
     justify-content: space-around;
     align-content: center;
@@ -54,7 +57,7 @@
 
   #nav > li {
     display: block;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   #nav > li:first-child {
@@ -62,16 +65,18 @@
   }
 
   #nav li a {
-    padding: 1px 1.4rem;
-    font-size: 0.43rem;
+    padding: 1px 1rem;
+    font-size: 0.54rem;
     font-weight: 450;
   }
-
-  #slider {
-    padding-top: 150%;
-    margin-top: 3rem;
-  }
   
+  #hdsd-container {
+    text-align: center;
+  }
+
+  #hdsd-container h1{
+    font-size: 1.5rem;
+  }
   .v-stepper {
     min-height: 8rem;
   }
@@ -84,7 +89,58 @@
     border-left: 3px solid gray;
   }
 
+  #loi-ich h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .stepper {
+    margin: 3rem auto;
+  }
+  
+  .stepper::after {
+    left: 10.5%;
+  }
+
+  .stepper-container {
+    width: 100%;
+    padding-left: 6rem;
+    padding-right: 1.5rem;
+  }
+
+  .stepper-text {
+    font-size: 0.8rem;
+  }
+
+  .stepper-right{
+    left: 0;
+  }
+
+  .step-index {
+    left: 0.6rem;
+  }
+
+  .stepper-right .step-index {
+    left: 0.55rem;
+  }
+
+  .stepper-left-arrow {
+    border-left: 0;
+    border-right: 1rem solid black;
+    left: -0.9rem;
+  }
+
+  .stepper-right-arrow {
+    border-right: 1rem solid black;
+    border-left: 0;
+    left: -0.9rem;
+  }
+
   #lien-he {
     padding: 1rem;
+  }
+
+  .swiper-btns {
+    
   }
 }
